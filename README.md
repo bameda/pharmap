@@ -5,8 +5,17 @@
 ## Build Setup
 
 ``` bash
+# Download this repository
+git clone git@github.com:bameda/pharmap.git
+cd pharmap
+
 # install dependencies
 npm install
+
+# create config files
+cp config/dev.env.js.sample config/dev.env.js
+cp config/test.env.js.sample config/test.env.js
+cp config/prod.env.js.sample config/prod.env.js
 
 # serve with hot reload at localhost:8080
 npm run dev
